@@ -1,0 +1,23 @@
+# Next.js
+.next/
+out/
+
+# Dependencies
+node_modules/
+
+# Credentials / Sensitive Files
+src/lib/gcp-credentials.json
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env*.local
+.env
+
+# Build outputs
+dist
+build
+.vercel
